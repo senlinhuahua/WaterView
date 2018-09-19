@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaterView">
+        <!--波长-->
+        <attr name="waveLength" format="dimension"/>
+        <!--是否上升-->
+        <attr name="rise" format="boolean"/>
+        <!--图片-->
+        <attr name="boatBitmap" format="reference"/>
+        <!--水位的初始位置-->
+        <attr name="originY" format="dimension"/>
+        <!--波峰的初始高度-->
+        <attr name="waveHeight" format="dimension"/>
+        <!--水涨的快慢-->
+        <attr name="duration" format="dimension"/>
+        <!--图片的宽高-->
+        <attr name="bitmapLength" format="dimension"/>
+
+
+    </declare-styleable>
+
+
+</resources>
